@@ -1,0 +1,1643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from oscar.thinqteam.com/default/icons-weather.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jun 2020 15:20:59 GMT -->
+<head>
+    <link rel="stylesheet" href="assets/css/pace.css">
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/demo/favicon.png">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Weather Icons Page</title>
+    <!-- CSS -->
+    <link href="assets/vendors/material-icons/material-icons.css" rel="stylesheet" type="text/css">
+    <link href="assets/vendors/mono-social-icons/monosocialiconsfont.css" rel="stylesheet" type="text/css">
+    <link href="../../cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.4/sweetalert2.css" rel="stylesheet" type="text/css">
+    <link href="../../cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" type="text/css">
+    <link href="../../cdnjs.cloudflare.com/ajax/libs/mediaelement/4.1.3/mediaelementplayer.min.css" rel="stylesheet" type="text/css">
+    <link href="../../cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.7.0/css/perfect-scrollbar.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" type="text/css">
+    <link href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/vendors/weather-icons-master/weather-icons.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/vendors/weather-icons-master/weather-icons-wind.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <!-- Head Libs -->
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+</head>
+
+<body class="header-light sidebar-dark sidebar-expand icons-page">
+    <div id="wrapper" class="wrapper">
+        <!-- HEADER & TOP NAVIGATION -->
+        <nav class="navbar">
+            <!-- Logo Area -->
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">
+                    <img class="logo-expand" alt="" src="assets/demo/logo-expand.png">
+                    <img class="logo-collapse" alt="" src="assets/demo/logo-collapse.png">
+                    <!-- <p>OSCAR</p> -->
+                </a>
+            </div>
+            <!-- /.navbar-header -->
+            <!-- Left Menu & Sidebar Toggle -->
+            <ul class="nav navbar-nav">
+                <li class="sidebar-toggle"><a href="javascript:void(0)" class="ripple"><i class="material-icons list-icon">menu</i></a>
+                </li>
+            </ul>
+            <!-- /.navbar-left -->
+            <!-- Search Form -->
+            <form class="navbar-search d-none d-sm-block" role="search"><i class="material-icons list-icon">search</i> 
+                <input type="text" class="search-query" placeholder="Search anything..."> <a href="javascript:void(0);" class="remove-focus"><i class="material-icons">clear</i></a>
+            </form>
+            <!-- /.navbar-search -->
+            <div class="spacer"></div>
+            <!-- Button: Create New -->
+            <div class="btn-list dropdown d-none d-md-flex"><a href="javascript:void(0);" class="btn btn-primary dropdown-toggle ripple" data-toggle="dropdown"><i class="material-icons list-icon fs-24">playlist_add</i> Create New</a>
+                <div class="dropdown-menu dropdown-left animated flipInY"><span class="dropdown-header">Create new ...</span>  <a class="dropdown-item" href="#">Projects</a>  <a class="dropdown-item" href="#">User Profile</a>  <a class="dropdown-item" href="#"><span class="badge badge-pill badge-primary float-right">7</span> To-do Item</a> 
+                    <a
+                    class="dropdown-item" href="#"><span class="badge badge-pill badge-color-scheme float-right">23</span> Mail</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="material-icons list-icon icon-muted pull-right">settings</i> <strong>Settings</strong></a>
+                </div>
+            </div>
+            <!-- /.btn-list -->
+            <!-- Right Menu -->
+            <ul class="nav navbar-nav d-none d-lg-block">
+                <li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle ripple" data-toggle="dropdown"><i class="material-icons list-icon">mail_outline</i> <span class="badge badge-border bg-primary">3</span></a>
+                    <div class="dropdown-menu dropdown-left dropdown-card dropdown-card-dark animated flipInY">
+                        <div class="card">
+                            <header class="card-header">New messages <span class="mr-l-10 badge badge-border badge-border-inverted bg-primary">3</span>
+                            </header>
+                            <ul class="list-unstyled dropdown-list-group">
+                                <li><a href="#" class="media"><span class="d-flex user--online thumb-xs"><img src="assets/demo/users/user3.jpg" class="rounded-circle" alt=""> </span><span class="media-body"><span class="media-heading">Steve Smith</span> <small>10.14.2016 @ 2:30pm</small> <span class="media-content">I slowly updated my Behance with some recent projects ...</span></span></a>
+                                </li>
+                                <li><a href="#" class="media"><span class="d-flex user--offline thumb-xs"><img src="assets/demo/users/user6.jpg" class="rounded-circle" alt=""> </span><span class="media-body"><span class="media-heading">Emily Lee</span> <small>10.14.2016 @ 2:30pm</small> <span class="media-content">Hi John!</span></span></a>
+                                </li>
+                                <li><a href="#" class="media"><span class="d-flex user--online thumb-xs"><img src="assets/demo/users/user2.jpg" class="rounded-circle" alt=""> </span><span class="media-body"><span class="media-heading">Christopher Palmer</span> <small>10.14.2016 @ 2:30pm</small> <span class="media-content">Like the illustration and the indicator style. Best of luck ...</span></span></a>
+                                </li>
+                                <li><a href="#" class="media"><span class="d-flex user--online thumb-xs"><img src="assets/demo/users/user3.jpg" class="rounded-circle" alt=""> </span><span class="media-body"><span class="media-heading">Steve Smith</span> <small>10.14.2016 @ 2:30pm</small> <span class="media-content">I slowly updated my Behance with some recent projects ...</span></span></a>
+                                </li>
+                                <li><a href="#" class="media"><span class="d-flex user--offline thumb-xs"><img src="assets/demo/users/user6.jpg" class="rounded-circle" alt=""> </span><span class="media-body"><span class="media-heading">Emily Lee</span> <small>10.14.2016 @ 2:30pm</small> <span class="media-content">Hi John!</span></span></a>
+                                </li>
+                                <li><a href="#" class="media"><span class="d-flex user--offline thumb-xs"><img src="assets/demo/users/user2.jpg" class="rounded-circle" alt=""> </span><span class="media-body"><span class="media-heading">Christopher Palmer</span> <small>10.14.2016 @ 2:30pm</small> <span class="media-content">Like the illustration and the indicator style. Best of luck ...</span></span></a>
+                                </li>
+                            </ul>
+                            <!-- /.dropdown-list-group -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.dropdown-menu -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown"><a href="#" class="dropdown-toggle ripple" data-toggle="dropdown"><i class="material-icons list-icon">event_available</i> <span class="badge badge-border bg-primary">9</span></a>
+                    <div class="dropdown-menu dropdown-left dropdown-card dropdown-card-dark animated flipInY">
+                        <div class="card">
+                            <header class="card-header">New notifications <span class="mr-l-10 badge badge-border badge-border-inverted bg-primary">4</span>
+                            </header>
+                            <ul class="list-unstyled dropdown-list-group">
+                                <li><a href="#" class="media"><span class="d-flex"><i class="material-icons list-icon">check</i> </span><span class="media-body"><span class="media-heading">Invitation accepted</span> <small>10.14.2016 @ 2:30pm</small> <span class="media-content">Your invitation for Mars has been accepted ...</span></span></a>
+                                </li>
+                                <li><a href="#" class="media"><span class="d-flex user--online thumb-xs"><img src="assets/demo/users/user3.jpg" class="rounded-circle" alt=""> </span><span class="media-body"><span class="media-heading">Steve Smith</span> <small>10.14.2016 @ 2:30pm</small> <span class="media-content">I slowly updated my Behance with some recent projects ...</span></span></a>
+                                </li>
+                                <li><a href="#" class="media"><span class="d-flex"><i class="material-icons list-icon">event_available</i> </span><span class="media-body"><span class="media-heading">To Do</span> <small>10.14.2016 @ 2:30pm</small> <span class="media-content">Meeting with Nathan McCullum on Friday 8 AM ...</span></span></a>
+                                </li>
+                                <li><a href="#" class="media"><span class="d-flex"><i class="material-icons list-icon">check</i> </span><span class="media-body"><span class="media-heading">Invitation accepted</span> <small>10.14.2016 @ 2:30pm</small> <span class="media-content">Your invitation for Mars has been accepted ...</span></span></a>
+                                </li>
+                            </ul>
+                            <!-- /.dropdown-list-group -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.dropdown-menu -->
+                </li>
+                <!-- /.dropdown -->
+                <li><a href="javascript:void(0);" class="right-sidebar-toggle ripple"><i class="material-icons list-icon">comment</i></a>
+                </li>
+            </ul>
+            <!-- /.navbar-right -->
+            <!-- User Image with Dropdown -->
+            <ul class="nav navbar-nav">
+                <li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle ripple" data-toggle="dropdown"><span class="avatar thumb-sm"><img src="assets/demo/users/user-image.png" class="rounded-circle" alt=""> <i class="material-icons list-icon">expand_more</i></span></a>
+                    <div
+                    class="dropdown-menu dropdown-left dropdown-card dropdown-card-wide dropdown-card-dark text-inverse">
+                        <div class="card">
+                            <header class="card-heading-extra">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3 class="mr-b-10 sub-heading-font-family fw-300">Scott Adams</h3><span class="user--online">Available <i class="material-icons list-icon">expand_more</i></span>
+                                    </div>
+                                    <div class="col-4 d-flex justify-content-end"><a href="logout.html" class="mr-t-10"><i class="material-icons list-icon">power_settings_new</i> Logout</a>
+                                    </div>
+                                    <!-- /.col-4 -->
+                                </div>
+                                <!-- /.row -->
+                            </header>
+                            <section class="card-header text-inverse">New notifications <span class="badge badge-border badge-border-inverted bg-danger mr-l-10">4</span>
+                            </section>
+                            <ul class="list-unstyled dropdown-list-group">
+                                <li><a href="#" class="media"><span class="d-flex"><i class="material-icons list-icon">check</i> </span><span class="media-body"><span class="media-heading">Invitation accepted</span> <small>10.14.2016 @ 2:30pm</small> <span class="media-content">Your invitation for Mars has been accepted ...</span></span></a>
+                                </li>
+                                <li><a href="#" class="media"><span class="d-flex user--online thumb-xs"><img src="assets/demo/users/user3.jpg" class="rounded-circle" alt=""> </span><span class="media-body"><span class="media-heading">Steve Smith</span> <small>10.14.2016 @ 2:30pm</small> <span class="media-content">I slowly updated my Behance with some recent projects and finally added a case study for thus great project ...</span></span></a>
+                                </li>
+                                <li><a href="#" class="media"><span class="d-flex"><i class="material-icons list-icon">event_available</i> </span><span class="media-body"><span class="media-heading">To Do</span> <small>10.14.2016 @ 2:30pm</small> <span class="media-content">Meeting with Nathan McCullum on Friday 8 AM to discuss about an ongoing project ...</span></span></a>
+                                </li>
+                                <li><a href="#" class="media"><span class="d-flex"><i class="material-icons list-icon">check</i> </span><span class="media-body"><span class="media-heading">Invitation accepted</span> <small>10.14.2016 @ 2:30pm</small> <span class="media-content">Your invitation for Mars has been accepted ...</span></span></a>
+                                </li>
+                            </ul>
+                        </div>
+    </div>
+    </li>
+    </ul>
+    <!-- /.navbar-right -->
+    </nav>
+    <!-- /.navbar -->
+    <div class="content-wrapper">
+        <!-- SIDEBAR -->
+        <aside class="site-sidebar scrollbar-enabled clearfix">
+            <!-- User Details -->
+            <div class="side-user">
+                <a class="col-sm-12 media clearfix" href="javascript:void(0);">
+                    <figure class="media-left media-middle user--online thumb-sm mr-r-10 mr-b-0">
+                        <img src="assets/demo/users/user-image.png" class="media-object rounded-circle" alt="">
+                    </figure>
+                    <div class="media-body hide-menu">
+                        <h4 class="media-heading mr-b-5 text-uppercase">Scott Adams</h4><span class="user-type fs-12">Edit Profile (...)</span>
+                    </div>
+                </a>
+                <div class="clearfix"></div>
+                <ul class="nav in side-menu">
+                    <li><a href="page-profile.html"><i class="list-icon material-icons">face</i> My Profile</a>
+                    </li>
+                    <li><a href="app-inbox.html"><i class="list-icon material-icons">mail_outline</i> Inbox</a>
+                    </li>
+                    <li><a href="page-lock-screen.html"><i class="list-icon material-icons">settings</i> Lock Screen</a>
+                    </li>
+                    <li><a href="page-login.html"><i class="list-icon material-icons">settings_power</i> Logout</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.side-user -->
+            <!-- Sidebar Menu -->
+            <nav class="sidebar-nav">
+                <ul class="nav in side-menu">
+                    <li class="current-page menu-item-has-children"><a href="javascript:void(0);" class="ripple"><i class="list-icon material-icons">network_check</i> <span class="hide-menu">Dashboard <span class="badge badge-border badge-border-inverted bg-primary pull-right">5</span></span></a>
+                        <ul
+                        class="list-unstyled sub-menu">
+                            <li><a href="index.html">Default</a>
+                            </li>
+                            <li><a href="http://oscar.thinqteam.com/collapse-nav/index.html">Collapsed Nav</a>
+                            </li>
+                            <li><a href="http://oscar.thinqteam.com/horizontal-nav-icons/index.html">Horizontal Nav Icons</a>
+                            </li>
+                            <li><a href="http://oscar.thinqteam.com/horizontal-nav/index.html">Horizontal Nav</a>
+                            </li>
+                            <li><a href="http://oscar.thinqteam.com/ecommerce/index.html">Ecommerce</a>
+                            </li>
+                            <li><a href="http://oscar.thinqteam.com/real-estate/index.html">Real Estate</a>
+                            </li>
+                            <li><a href="http://oscar.thinqteam.com/university/index.html">University</a>
+                            </li>
+                </ul>
+                </li>
+                <li class="menu-item-has-children active"><a href="javascript:void(0);" class="ripple"><span class="color-color-scheme"><i class="list-icon material-icons">mail_outline</i> <span class="hide-menu">Apps</span></span></a>
+                    <ul class="list-unstyled sub-menu">
+                        <li><a href="app-calender.html">Calender</a>
+                        </li>
+                        <li><a href="app-chat.html">Chat</a>
+                        </li>
+                        <li class="menu-item-has-children"><a href="javascript:void(0);">Inbox</a>
+                            <ul class="list-unstyled sub-menu">
+                                <li><a href="app-inbox.html">Inbox</a>
+                                </li>
+                                <li><a href="app-inbox-single.html">Inbox single</a>
+                                </li>
+                                <li><a href="app-inbox-compose.html">Compose mail</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="javascript:void(0);">Contacts</a>
+                            <ul class="list-unstyled sub-menu">
+                                <li><a href="app-contacts.html">Contacts List</a>
+                                </li>
+                                <li><a href="app-contacts-alt.html">Contacts List Alt</a>
+                                </li>
+                                <li><a href="app-contacts-details.html">Contact Details</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="javascript:void(0);" class="ripple"><i class="list-icon material-icons">playlist_add</i> <span class="hide-menu">Tables</span></a>
+                    <ul class="list-unstyled sub-menu">
+                        <li><a href="tables-basic.html">Basic Tables</a>
+                        </li>
+                        <li><a href="tables-data-table.html">Data Table</a>
+                        </li>
+                        <li><a href="tables-bootstrap.html">Bootstrap Tables</a>
+                        </li>
+                        <li><a href="tables-responsive.html">Responsive Tables</a>
+                        </li>
+                        <li><a href="tables-editable.html">Editable Tables</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="javascript:void(0);" class="ripple"><i class="list-icon material-icons">lightbulb_outline</i> <span class="hide-menu">UI Elements <span class="badge badge-border badge-border-inverted bg-primary pull-right">9</span></span></a>
+                    <ul
+                    class="list-unstyled sub-menu">
+                        <li><a href="ui-typography.html">Typography</a>
+                        </li>
+                        <li><a href="ui-buttons.html">Buttons</a>
+                        </li>
+                        <li><a href="ui-cards.html">Cards</a>
+                        </li>
+                        <li><a href="ui-tabs.html">Tabs</a>
+                        </li>
+                        <li><a href="ui-panels.html">Panels</a>
+                        </li>
+                        <li><a href="ui-accordions.html">Accordions</a>
+                        </li>
+                        <li><a href="ui-modals.html">Modals</a>
+                        </li>
+                        <li><a href="ui-icon-boxes.html">Icon Boxes</a>
+                        </li>
+                        <li><a href="ui-lists.html">Lists &amp; Media Object</a>
+                        </li>
+                        <li><a href="ui-user-cards.html">User Cards</a>
+                        </li>
+                        <li><a href="ui-grid.html">Grid</a>
+                        </li>
+                        <li><a href="ui-progress.html">Progress Bars</a>
+                        </li>
+                        <li><a href="ui-notifications.html">Notifications &amp; Alerts</a>
+                        </li>
+                        <li><a href="ui-pagination.html">Pagination</a>
+                        </li>
+                        <li><a href="ui-media.html">Media</a>
+                        </li>
+                        <li><a href="ui-carousel.html">Carousel</a>
+                        </li>
+                        <li><a href="ui-bootstrap.html">Bootstrap Elements</a>
+                        </li>
+                        </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="javascript:void(0);" class="ripple"><i class="list-icon material-icons">developer_board</i> <span class="hide-menu">Forms</span></a>
+                    <ul class="list-unstyled sub-menu">
+                        <li><a href="form-elements.html">Elements</a>
+                        </li>
+                        <li><a href="form-material.html">Material Design</a>
+                        </li>
+                        <li><a href="form-validation.html">Form Validation</a>
+                        </li>
+                        <li><a href="form-dropzone.html">File Upload</a>
+                        </li>
+                        <li><a href="form-pickers.html">Picker</a>
+                        </li>
+                        <li><a href="form-select.html">Select and Multiselect</a>
+                        </li>
+                        <li><a href="form-tags-categories.html">Tags and Categories</a>
+                        </li>
+                        <li><a href="form-addons.html">Addons</a>
+                        </li>
+                        <li><a href="form-editors.html">Editors</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="javascript:void(0);" class="ripple"><i class="list-icon material-icons">tune</i> <span class="hide-menu">Charts</span></a>
+                    <ul class="list-unstyled sub-menu">
+                        <li><a href="charts-flot.html">Flot Charts</a>
+                        </li>
+                        <li><a href="charts-morris.html">Morris Charts</a>
+                        </li>
+                        <li><a href="charts-js.html">Chart-js</a>
+                        </li>
+                        <li><a href="charts-sparkline.html">Sparkline Charts</a>
+                        </li>
+                        <li><a href="charts-knob.html">Knob Charts</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-divider"></li>
+                <li><a href="#" class="ripple"><i class="list-icon material-icons">notifications_none</i> <span class="hide-menu">Updates</span></a>
+                </li>
+                <li class="menu-item-has-children"><a href="javascript:void(0);" class="ripple"><i class="list-icon material-icons">widgets</i> <span class="hide-menu">Widgets</span></a>
+                    <ul class="list-unstyled sub-menu">
+                        <li><a href="widgets.html">Content Widgets</a>
+                        </li>
+                        <li><a href="widgets-statistics.html">Statistics Widgets</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="javascript:void(0);" class="ripple"><i class="list-icon material-icons">add_location</i> <span class="hide-menu">Maps</span></a>
+                    <ul class="list-unstyled sub-menu">
+                        <li><a href="maps-google.html">Google Maps</a>
+                        </li>
+                        <li><a href="maps-vector.html">Vector Maps</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="javascript:void(0);" class="ripple"><i class="list-icon material-icons">lightbulb_outline</i> <span class="hide-menu">Icons</span></a>
+                    <ul class="list-unstyled sub-menu">
+                        <li><a href="icons-material-design.html">Material Design</a>
+                        </li>
+                        <li><a href="icons-font-awesome.html">Font Awesome</a>
+                        </li>
+                        <li><a href="icons-mono-social.html">Social Icons</a>
+                        </li>
+                        <li><a href="icons-weather.html">Weather Icons</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="javascript:void(0);" class="ripple"><i class="list-icon material-icons">folder_open</i> <span class="hide-menu">Sample Pages <span class="badge badge-border badge-border-inverted bg-info pull-right">3</span></span></a>
+                    <ul class="list-unstyled sub-menu">
+                        <li><a href="page-blank.html">Blank Page</a>
+                        </li>
+                        <li class="menu-item-has-children"><a href="javascript:void(0);">Email Templates</a>
+                            <ul class="list-unstyled sub-menu">
+                                <li><a href="email-templates/basic.html">Basic</a>
+                                </li>
+                                <li><a href="email-templates/billing.html">Billing</a>
+                                </li>
+                                <li><a href="email-templates/friend-request.html">Friend Request</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="page-lightbox.html">Lightbox Popup</a>
+                        </li>
+                        <li><a href="page-sitemap.html">Sitemap</a>
+                        </li>
+                        <li><a href="page-search-results.html">Search Results</a>
+                        </li>
+                        <li><a href="page-custom-scroll.html">Custom Scroll</a>
+                        </li>
+                        <li><a href="page-utility-classes.html">Utility Classes</a>
+                        </li>
+                        <li><a href="page-animations.html">Animations</a>
+                        </li>
+                        <li><a href="page-faq.html">FAQ</a>
+                        </li>
+                        <li><a href="page-pricing-table.html">Pricing</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="javascript:void(0);" class="ripple"><i class="list-icon material-icons">card_travel</i> <span class="hide-menu">Profile Pages</span></a>
+                    <ul class="list-unstyled sub-menu">
+                        <li><a href="page-profile.html">Profile</a>
+                        </li>
+                        <li><a href="page-login.html">Login Page</a>
+                        </li>
+                        <li><a href="page-login2.html">Login Page 2</a>
+                        </li>
+                        <li><a href="page-register.html">Sign Up</a>
+                        </li>
+                        <li><a href="page-register2.html">Sign Up 2</a>
+                        </li>
+                        <li><a href="page-register-3-step.html">3 Step Sign Up</a>
+                        </li>
+                        <li><a href="page-forgot-pwd.html">Forgot Password</a>
+                        </li>
+                        <li><a href="page-email-confirm.html">Confirm Email</a>
+                        </li>
+                        <li><a href="page-lock-screen.html">Lock Screen</a>
+                        </li>
+                        <li><a href="page-timeline.html">Timeline</a>
+                        </li>
+                        <li class="menu-item-has-children"><a href="javascript:void(0);">Error Pages</a>
+                            <ul class="list-unstyled sub-menu">
+                                <li><a href="page-error-403.html">Error 403</a>
+                                </li>
+                                <li><a href="page-error-404.html">Error 404</a>
+                                </li>
+                                <li><a href="page-error-500.html">Error 500</a>
+                                </li>
+                                <li><a href="page-error-503.html">Error 503</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="javascript:void(0);" class="ripple"><i class="list-icon material-icons">shopping_cart</i> <span class="hide-menu">E-Commerce</span></a>
+                    <ul class="list-unstyled sub-menu">
+                        <li><a href="ecommerce-products.html">Products</a>
+                        </li>
+                        <li><a href="ecommerce-horizontal-products.html">Horizontal Products</a>
+                        </li>
+                        <li><a href="ecommerce-invoice.html">Invoice</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="javascript:void(0);" class="ripple"><i class="list-icon material-icons">filter_list</i> <span class="hide-menu">Multi-level Menu</span></a>
+                    <ul class="list-unstyled sub-menu">
+                        <li><a href="index.html">Second Level Item</a>
+                        </li>
+                        <li><a href="index.html">Second Level Item</a>
+                        </li>
+                        <li class="menu-item-has-children"><a href="index.html">Third Level</a>
+                            <ul class="list-unstyled sub-menu">
+                                <li><a href="index.html">Third Level Item</a>
+                                </li>
+                                <li><a href="index.html">Third Level Item</a>
+                                </li>
+                                <li><a href="index.html">Third Level Item</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="page-login.html"><i class="list-icon material-icons">settings_power</i> <span class="hide-menu">Log Out</span></a>
+                </li>
+                </ul>
+                <!-- /.side-menu -->
+            </nav>
+            <!-- /.sidebar-nav -->
+        </aside>
+        <!-- /.site-sidebar -->
+        <main class="main-wrapper clearfix">
+            <!-- Page Title Area -->
+            <div class="row page-title clearfix">
+                <div class="page-title-left">
+                    <h5 class="mr-0 mr-r-5">Weather Icons Page</h5>
+                    <p class="mr-0 text-muted d-none d-md-inline-block">statistics, charts, events and reports</p>
+                </div>
+                <!-- /.page-title-left -->
+                <div class="page-title-right d-inline-flex">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Dashboard</a>
+                        </li>
+                        <li class="breadcrumb-item active">Weather Icons Page</li>
+                    </ol>
+                    <div class="d-none d-sm-inline-flex justify-center align-items-center"><a href="javascript: void(0);" class="btn btn-outline-primary mr-l-20 btn-sm btn-rounded hidden-xs hidden-sm ripple" target="_blank">Buy Now</a>
+                    </div>
+                </div>
+                <!-- /.page-title-right -->
+            </div>
+            <!-- /.page-title -->
+            <!-- =================================== -->
+            <!-- Different data widgets ============ -->
+            <!-- =================================== -->
+            <div class="widget-list">
+                <div class="row">
+                    <div class="col-md-12 widget-holder">
+                        <div class="widget-bg">
+                            <div class="widget-body clearfix">
+                                <section>
+                                    <h5 class="box-title mr-b-0">25 New 2.0 Icons!</h5>
+                                    <p class="text-muted">Sample code: <code>&lt;i class="list-icon wi wi-vcard"&gt;&lt;/i&gt;</code>
+                                    </p>
+                                    <div class="row text-center">
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-cloudy-high"></i>
+                                            <br><small>day-cloudy-high</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-light-wind"></i>
+                                            <br><small>day-light-wind</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-sleet"></i>
+                                            <br><small>day-sleet</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-haze"></i>
+                                            <br><small>day-haze</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-cloudy-high"></i>
+                                            <br><small>night-cloud-high</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-partly-cloudy"></i>
+                                            <br><small>night-alt-partly-cloudy</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-sleet"></i>
+                                            <br><small>sleet</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moonrise"></i>
+                                            <br><small>moonrise</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moonset"></i>
+                                            <br><small>moonset</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-sleet"></i>
+                                            <br><small>night-sleet</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-sleet"></i>
+                                            <br><small>night-alt-sleet</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-raindrop"></i>
+                                            <br><small>raindrop</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-barometer"></i>
+                                            <br><small>barometer</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-humidity"></i>
+                                            <br><small>humidity</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-na"></i>
+                                            <br><small>na (no report)</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-flood"></i>
+                                            <br><small>flood</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-sandstorm"></i>
+                                            <br><small>sandstorm</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-tsunami"></i>
+                                            <br><small>tsunami</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-earthquake"></i>
+                                            <br><small>earthquake</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-fire"></i>
+                                            <br><small>fire</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-volcano"></i>
+                                            <br><small>volcano</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-train"></i>
+                                            <br><small>train</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-small-craft-advisory"></i>
+                                            <br><small>small-craft-advisory</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-gale-warning"></i>
+                                            <br><small>gale-warning</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-storm-warning"></i>
+                                            <br><small>storm-warning</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-hurricane-warning"></i>
+                                            <br><small>hurricane-warning</small>
+                                        </div>
+                                    </div>
+                                </section>
+                                <hr>
+                                <section>
+                                    <h5 class="box-title">Daytime</h5>
+                                    <div class="row text-center">
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-sunny"></i>
+                                            <br><small>wi-day-sunny</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-cloudy"></i>
+                                            <br><small>wi-day-cloudy</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-cloudy-gusts"></i>
+                                            <br><small>wi-day-cloudy-gusts</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-cloudy-windy"></i>
+                                            <br><small>wi-day-cloudy-windy</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-fog"></i>
+                                            <br><small>wi-day-fog</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-hail"></i>
+                                            <br><small>wi-day-hail</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-haze"></i>
+                                            <br><small>wi-day-haze</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-lightning"></i>
+                                            <br><small>wi-day-lightning</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-rain"></i>
+                                            <br><small>wi-day-rain-mix</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-rain-wind"></i>
+                                            <br><small>wi-day-rain-wind</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-showers"></i>
+                                            <br><small>wi-day-showers</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-sleet"></i>
+                                            <br><small>wi-day-sleet</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-sleet-storm"></i>
+                                            <br><small>wi-day-sleet-storm</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-snow"></i>
+                                            <br><small>wi-day-snow</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-snow-thunderstorm"></i>
+                                            <br><small>wi-day-snow-thunderstorm</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-snow-wind"></i>
+                                            <br><small>wi-day-snow-wind</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-sprinkle"></i>
+                                            <br><small>wi-day-sprinkle</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-storm-showers"></i>
+                                            <br><small>wi-day-storm-showers</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-sunny-overcast"></i>
+                                            <br><small>wi-day-sunny-overcast</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-thunderstorm"></i>
+                                            <br><small>wi-day-thunderstorm</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-windy"></i>
+                                            <br><small>wi-day-windy</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-solar-eclipse"></i>
+                                            <br><small>wi-solar-eclipse</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-hot"></i>
+                                            <br><small>wi-hot</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-cloudy-high"></i>
+                                            <br><small>wi-day-cloudy-high</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-day-light-wind"></i>
+                                            <br><small>wi-day-light-wind</small>
+                                        </div>
+                                    </div>
+                                </section>
+                                <hr>
+                                <section>
+                                    <h5 class="box-title">Nighttime</h5>
+                                    <div class="row text-center">
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-clear"></i>
+                                            <br><small>wi-night-clear</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-cloudy"></i>
+                                            <br><small>wi-night-alt-cloudy</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-cloudy-gusts"></i>
+                                            <br><small>wi-night-alt-cloudy-gusts</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-cloudy-windy"></i>
+                                            <br><small>wi-night-alt-cloudy-windy</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-hail"></i>
+                                            <br><small>wi-night-alt-hail</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-lightning"></i>
+                                            <br><small>wi-night-alt-lightning</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-rain"></i>
+                                            <br><small>wi-night-alt-rain</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-rain-mix"></i>
+                                            <br><small>wi-night-alt-rain-mix</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-rain-wind"></i>
+                                            <br><small>wi-night-alt-rain-wind</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-showers"></i>
+                                            <br><small>wi-night-alt-showers</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-sleet"></i>
+                                            <br><small>wi-night-alt-sleet</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-sleet-storm"></i>
+                                            <br><small>wi-night-alt-sleet-storm</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-snow"></i>
+                                            <br><small>wi-night-alt-snow</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-snow-wind"></i>
+                                            <br><small>wi-night-alt-snow-wind</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-sprinkle"></i>
+                                            <br><small>wi-night-alt-sprinkle</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-storm-showers"></i>
+                                            <br><small>wi-night-alt-storm-showers</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-thunderstorm"></i>
+                                            <br><small>wi-night-alt-thunderstorm</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-snow-thunderstorm"></i>
+                                            <br><small>wi-night-alt-snow-thunderstorm</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-cloudy"></i>
+                                            <br><small>wi-night-cloudy</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-cloudy-gusts"></i>
+                                            <br><small>wi-night-cloudy-gusts</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-cloudy-windy"></i>
+                                            <br><small>wi-night-cloudy-windy</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-fog"></i>
+                                            <br><small>wi-night-fog</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-hail"></i>
+                                            <br><small>wi-night-hail</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-lightning"></i>
+                                            <br><small>wi-night-lightning</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-partly-cloudy"></i>
+                                            <br><small>wi-night-partly-cloudy</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-rain"></i>
+                                            <br><small>wi-night-rain</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-rain-mix"></i>
+                                            <br><small>wi-night-rain-mix</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-rain-wind"></i>
+                                            <br><small>wi-night-rain-wind</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-showers"></i>
+                                            <br><small>wi-night-showers</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-sleet"></i>
+                                            <br><small>wi-night-sleet</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-sleet-storm"></i>
+                                            <br><small>wi-night-sleet-storm</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-snow"></i>
+                                            <br><small>wi-night-snow</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-snow-thunderstorm"></i>
+                                            <br><small>wi-night-snow-thunderstorm</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-snow-wind"></i>
+                                            <br><small>wi-night-snow-wind</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-sprinkle"></i>
+                                            <br><small>wi-night-sprinkle</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-storm-showers"></i>
+                                            <br><small>wi-night-storm-showers</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-thunderstorm"></i>
+                                            <br><small>wi-night-thunderstorm</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-lunar-eclipse"></i>
+                                            <br><small>wi-lunar-eclipse</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-stars"></i>
+                                            <br><small>wi-stars</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-storm-showers"></i>
+                                            <br><small>wi-storm-showers</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-thunderstorm"></i>
+                                            <br><small>wi-thunderstorm</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-cloudy-high"></i>
+                                            <br><small>wi-night-alt-cloudy-high</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-cloudy-high"></i>
+                                            <br><small>wi-night-cloudy-high</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-night-alt-partly-cloudy"></i>
+                                            <br><small>wi-night-alt-partly-cloudy</small>
+                                        </div>
+                                    </div>
+                                </section>
+                                <hr>
+                                <section>
+                                    <h5 class="box-title">Neutral</h5>
+                                    <div class="row text-center">
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-cloud"></i>
+                                            <br><small>wi-cloud</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-cloudy"></i>
+                                            <br><small>wi-cloudy</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-cloudy-gusts"></i>
+                                            <br><small>wi-cloudy-gusts</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-cloudy-windy"></i>
+                                            <br><small>wi-cloudy-windy</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-fog"></i>
+                                            <br><small>wi-fog</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-hail"></i>
+                                            <br><small>wi-hail</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-rain"></i>
+                                            <br><small>wi-rain</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-rain-mix"></i>
+                                            <br><small>wi-rain-mix</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-rain-wind"></i>
+                                            <br><small>wi-rain-wind</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-showers"></i>
+                                            <br><small>wi-showers</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-sleet"></i>
+                                            <br><small>wi-sleet</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-snow"></i>
+                                            <br><small>wi-snow</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-sprinkle"></i>
+                                            <br><small>wi-sprinkle</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-storm-showers"></i>
+                                            <br><small>wi-storm-showers</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-thunderstorm"></i>
+                                            <br><small>wi-thunderstorm</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-snow-wind"></i>
+                                            <br><small>wi-snow-wind</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-snow"></i>
+                                            <br><small>wi-snow</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-smog"></i>
+                                            <br><small>wi-smog</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-smoke"></i>
+                                            <br><small>wi-smoke</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-lightning"></i>
+                                            <br><small>wi-lightning</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-raindrops"></i>
+                                            <br><small>wi-raindrops</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-raindrop"></i>
+                                            <br><small>wi-raindrop</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-dust"></i>
+                                            <br><small>wi-dust</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-snowflake-cold"></i>
+                                            <br><small>wi-snowflake-cold</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-windy"></i>
+                                            <br><small>wi-windy</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-strong-wind"></i>
+                                            <br><small>wi-strong-wind</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-sandstorm"></i>
+                                            <br><small>wi-sandstorm</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-earthquake"></i>
+                                            <br><small>wi-earthquake</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-fire"></i>
+                                            <br><small>wi-fire</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-flood"></i>
+                                            <br><small>wi-flood</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-meteor"></i>
+                                            <br><small>wi-meteor</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-tsunami"></i>
+                                            <br><small>wi-tsunami</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-volcano"></i>
+                                            <br><small>wi-volcano</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-hurricane"></i>
+                                            <br><small>wi-hurricane</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-tornado"></i>
+                                            <br><small>wi-tornado</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-small-craft-advisory"></i>
+                                            <br><small>wi-small-craft-advisory</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-gale-warning"></i>
+                                            <br><small>wi-gale-warning</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-storm-warning"></i>
+                                            <br><small>wi-storm-warning</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-hurricane-warning"></i>
+                                            <br><small>wi-hurricane-warning</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind-direction"></i>
+                                            <br><small>wi-wind-direction</small>
+                                        </div>
+                                    </div>
+                                </section>
+                                <hr>
+                                <section>
+                                    <h5 class="box-title">Miscellaneous</h5>
+                                    <div class="row text-center">
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-alien"></i>
+                                            <br><small>wi-alien</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-celsius"></i>
+                                            <br><small>wi-celsius</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-fahrenheit"></i>
+                                            <br><small>wi-fahrenheit</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-degrees"></i>
+                                            <br><small>wi-degrees</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-thermometer"></i>
+                                            <br><small>wi-thermometer</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-thermometer-exterior"></i>
+                                            <br><small>wi-thermometer-exterior</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-thermometer-internal"></i>
+                                            <br><small>wi-thermometer-internal</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-cloud-down"></i>
+                                            <br><small>wi-cloud-down</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-cloud-up"></i>
+                                            <br><small>wi-cloud-up</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-cloud-refresh"></i>
+                                            <br><small>wi-cloud-refresh</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-horizon"></i>
+                                            <br><small>wi-horizon</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-horizon-alt"></i>
+                                            <br><small>wi-horizon-alt</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-sunrise"></i>
+                                            <br><small>wi-sunrise</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-sunset"></i>
+                                            <br><small>wi-sunset</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moonrise"></i>
+                                            <br><small>wi-moonrise</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moonset"></i>
+                                            <br><small>wi-moonset</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-refresh"></i>
+                                            <br><small>wi-refresh</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-refresh-alt"></i>
+                                            <br><small>wi-refresh-alt</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-umbrella"></i>
+                                            <br><small>wi-umbrella</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-barometer"></i>
+                                            <br><small>wi-barometer</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-humidity"></i>
+                                            <br><small>wi-humidity</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-na"></i>
+                                            <br><small>wi-na</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-train"></i>
+                                            <br><small>wi-train</small>
+                                        </div>
+                                    </div>
+                                </section>
+                                <hr>
+                                <section>
+                                    <h5 class="box-title">Moon Phases</h5>
+                                    <div class="row text-center">
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-new"></i>
+                                            <br><small>wi-moon-new</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waxing-crescent-1"></i>
+                                            <br><small>wi-moon-waxing-crescent-1</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waxing-crescent-2"></i>
+                                            <br><small>wi-moon-waxing-crescent-2</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waxing-crescent-3"></i>
+                                            <br><small>wi-moon-waxing-crescent-3</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waxing-crescent-4"></i>
+                                            <br><small>wi-moon-waxing-crescent-4</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waxing-crescent-5"></i>
+                                            <br><small>wi-moon-waxing-crescent-5</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waxing-crescent-6"></i>
+                                            <br><small>wi-moon-waxing-crescent-6</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-first-quarter"></i>
+                                            <br><small>wi-moon-first-quarter</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waxing-gibbous-1"></i>
+                                            <br><small>wi-moon-waxing-gibbous-1</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waxing-gibbous-2"></i>
+                                            <br><small>wi-moon-waxing-gibbous-2</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waxing-gibbous-3"></i>
+                                            <br><small>wi-moon-waxing-gibbous-3</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waxing-gibbous-4"></i>
+                                            <br><small>wi-moon-waxing-gibbous-4</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waxing-gibbous-5"></i>
+                                            <br><small>wi-moon-waxing-gibbous-5</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waxing-gibbous-6"></i>
+                                            <br><small>wi-moon-waxing-gibbous-6</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-full"></i>
+                                            <br><small>wi-moon-full</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waning-gibbous-1"></i>
+                                            <br><small>wi-moon-waning-gibbous-1</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waning-gibbous-2"></i>
+                                            <br><small>wi-moon-waning-gibbous-2</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waning-gibbous-3"></i>
+                                            <br><small>wi-moon-waning-gibbous-3</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waning-gibbous-4"></i>
+                                            <br><small>wi-moon-waning-gibbous-4</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waning-gibbous-5"></i>
+                                            <br><small>wi-moon-waning-gibbous-5</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waning-gibbous-6"></i>
+                                            <br><small>wi-moon-waning-gibbous-6</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-third-quarter"></i>
+                                            <br><small>wi-moon-third-quarter</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waning-crescent-1"></i>
+                                            <br><small>wi-moon-waning-crescent-1</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waning-crescent-2"></i>
+                                            <br><small>wi-moon-waning-crescent-2</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waning-crescent-3"></i>
+                                            <br><small>wi-moon-waning-crescent-3</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waning-crescent-4"></i>
+                                            <br><small>wi-moon-waning-crescent-4</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waning-crescent-5"></i>
+                                            <br><small>wi-moon-waning-crescent-5</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-waning-crescent-6"></i>
+                                            <br><small>wi-moon-waning-crescent-6</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-new"></i>
+                                            <br><small>wi-moon-alt-new</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-first-quarter"></i>
+                                            <br><small>wi-moon-alt-first-quarter</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waxing-crescent-1"></i>
+                                            <br><small>wi-moon-alt-waxing-crescent-1</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waxing-crescent-2"></i>
+                                            <br><small>wi-moon-alt-waxing-crescent-2</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waxing-crescent-3"></i>
+                                            <br><small>wi-moon-alt-waxing-crescent-3</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waxing-crescent-4"></i>
+                                            <br><small>wi-moon-alt-waxing-crescent-4</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waxing-crescent-5"></i>
+                                            <br><small>wi-moon-alt-waxing-crescent-5</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waxing-crescent-6"></i>
+                                            <br><small>wi-moon-alt-waxing-crescent-6</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waxing-gibbous-1"></i>
+                                            <br><small>wi-moon-alt-waxing-gibbous-1</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waxing-gibbous-2"></i>
+                                            <br><small>wi-moon-alt-waxing-gibbous-2</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waxing-gibbous-3"></i>
+                                            <br><small>wi-moon-alt-waxing-gibbous-3</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waxing-gibbous-4"></i>
+                                            <br><small>wi-moon-alt-waxing-gibbous-4</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waxing-gibbous-5"></i>
+                                            <br><small>wi-moon-alt-waxing-gibbous-5</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waxing-gibbous-6"></i>
+                                            <br><small>wi-moon-alt-waxing-gibbous-6</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-full"></i>
+                                            <br><small>wi-moon-alt-full</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waning-gibbous-1"></i>
+                                            <br><small>wi-moon-alt-waning-gibbous-1</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waning-gibbous-2"></i>
+                                            <br><small>wi-moon-alt-waning-gibbous-2</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waning-gibbous-3"></i>
+                                            <br><small>wi-moon-alt-waning-gibbous-3</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waning-gibbous-4"></i>
+                                            <br><small>wi-moon-alt-waning-gibbous-4</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waning-gibbous-5"></i>
+                                            <br><small>wi-moon-alt-waning-gibbous-5</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waning-gibbous-6"></i>
+                                            <br><small>wi-moon-alt-waning-gibbous-6</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-third-quarter"></i>
+                                            <br><small>wi-moon-alt-third-quarter</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waning-crescent-1"></i>
+                                            <br><small>wi-moon-alt-waning-crescent-1</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waning-crescent-2"></i>
+                                            <br><small>wi-moon-alt-waning-crescent-2</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waning-crescent-3"></i>
+                                            <br><small>wi-moon-alt-waning-crescent-3</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waning-crescent-4"></i>
+                                            <br><small>wi-moon-alt-waning-crescent-4</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waning-crescent-5"></i>
+                                            <br><small>wi-moon-alt-waning-crescent-5</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-moon-alt-waning-crescent-6"></i>
+                                            <br><small>wi-moon-alt-waning-crescent-6</small>
+                                        </div>
+                                    </div>
+                                </section>
+                                <hr>
+                                <section>
+                                    <h5 class="box-title">Time</h5>
+                                    <div class="row text-center">
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-time-1"></i>
+                                            <br><small>wi-time-1</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-time-2"></i>
+                                            <br><small>wi-time-2</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-time-3"></i>
+                                            <br><small>wi-time-3</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-time-4"></i>
+                                            <br><small>wi-time-4</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-time-5"></i>
+                                            <br><small>wi-time-5</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-time-6"></i>
+                                            <br><small>wi-time-6</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-time-7"></i>
+                                            <br><small>wi-time-7</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-time-8"></i>
+                                            <br><small>wi-time-8</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-time-9"></i>
+                                            <br><small>wi-time-9</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-time-10"></i>
+                                            <br><small>wi-time-10</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-time-11"></i>
+                                            <br><small>wi-time-11</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-time-12"></i>
+                                            <br><small>wi-time-12</small>
+                                        </div>
+                                    </div>
+                                </section>
+                                <hr>
+                                <section>
+                                    <h5 class="box-title">Directional Arrows</h5>
+                                    <div class="row text-center">
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-direction-up"></i>
+                                            <br><small>wi-direction-up</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-direction-up-right"></i>
+                                            <br><small>wi-direction-up-right</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-direction-right"></i>
+                                            <br><small>wi-direction-right</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-direction-down-right"></i>
+                                            <br><small>wi-direction-down-right</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-direction-down"></i>
+                                            <br><small>wi-direction-down</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-direction-down-left"></i>
+                                            <br><small>wi-direction-down-left</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-direction-left"></i>
+                                            <br><small>wi-direction-left</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-direction-up-left"></i>
+                                            <br><small>wi-direction-up-left</small>
+                                        </div>
+                                    </div>
+                                </section>
+                                <hr>
+                                <section>
+                                    <h5 class="box-title">Wind Degree Examples</h5>
+                                    <div class="row text-center">
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind towards-0-deg"></i>
+                                            <br><small>towards-0-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind towards-23-deg"></i>
+                                            <br><small>towards-23-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind towards-45-deg"></i>
+                                            <br><small>towards-45-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind towards-68-deg"></i>
+                                            <br><small>towards-68-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind towards-90-deg"></i>
+                                            <br><small>towards-90-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind towards-113-deg"></i>
+                                            <br><small>towards-113-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind towards-135-deg"></i>
+                                            <br><small>towards-135-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind towards-158-deg"></i>
+                                            <br><small>towards-158-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind towards-180-deg"></i>
+                                            <br><small>towards-180-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind towards-203-deg"></i>
+                                            <br><small>towards-203-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind towards-225-deg"></i>
+                                            <br><small>towards-225-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind towards-248-deg"></i>
+                                            <br><small>towards-248-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind towards-270-deg"></i>
+                                            <br><small>towards-270-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind towards-293-deg"></i>
+                                            <br><small>towards-293-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind towards-313-deg"></i>
+                                            <br><small>towards-313-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind towards-336-deg"></i>
+                                            <br><small>towards-336-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind from-180-deg"></i>
+                                            <br><small>from-180-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind from-203-deg"></i>
+                                            <br><small>from-203-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind from-225-deg"></i>
+                                            <br><small>from-225-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind from-248-deg"></i>
+                                            <br><small>from-248-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind from-270-deg"></i>
+                                            <br><small>from-270-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind from-293-deg"></i>
+                                            <br><small>from-293-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind from-313-deg"></i>
+                                            <br><small>from-313-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind from-336-deg"></i>
+                                            <br><small>from-336-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind from-0-deg"></i>
+                                            <br><small>from-0-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind from-23-deg"></i>
+                                            <br><small>from-23-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind from-45-deg"></i>
+                                            <br><small>from-45-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind from-68-deg"></i>
+                                            <br><small>from-68-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind from-90-deg"></i>
+                                            <br><small>from-90-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind from-113-deg"></i>
+                                            <br><small>from-135-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind from-135-deg"></i>
+                                            <br><small>from-135-deg</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind from-158-deg"></i>
+                                            <br><small>from-158-deg</small>
+                                        </div>
+                                    </div>
+                                </section>
+                                <hr>
+                                <section>
+                                    <h5 class="box-title">Wind Cardinal Examples</h5>
+                                    <div class="row text-center">
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-towards-n"></i>
+                                            <br><small>wi-towards-n</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-towards-nne"></i>
+                                            <br><small>wi-towards-nne</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-towards-ne"></i>
+                                            <br><small>wi-towards-ne</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-towards-ene"></i>
+                                            <br><small>wi-towards-ene</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-towards-e"></i>
+                                            <br><small>wi-towards-e</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-towards-ese"></i>
+                                            <br><small>wi-towards-ese</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-towards-se"></i>
+                                            <br><small>wi-towards-se</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-towards-sse"></i>
+                                            <br><small>wi-towards-sse</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-towards-s"></i>
+                                            <br><small>wi-towards-s</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-towards-ssw"></i>
+                                            <br><small>wi-towards-ssw</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-towards-sw"></i>
+                                            <br><small>wi-towards-sw</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-towards-wsw"></i>
+                                            <br><small>wi-towards-wsw</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-towards-w"></i>
+                                            <br><small>wi-towards-w</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-towards-wnw"></i>
+                                            <br><small>wi-towards-wnw</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-towards-nw"></i>
+                                            <br><small>wi-towards-nw</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-towards-nnw"></i>
+                                            <br><small>wi-towards-nnw</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-from-n"></i>
+                                            <br><small>wi-from-n</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-from-nne"></i>
+                                            <br><small>wi-from-nne</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-from-ne"></i>
+                                            <br><small>wi-from-ne</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-from-ene"></i>
+                                            <br><small>wi-from-ene</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-from-e"></i>
+                                            <br><small>wi-from-e</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-from-ese"></i>
+                                            <br><small>wi-from-ese</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-from-se"></i>
+                                            <br><small>wi-from-se</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-from-sse"></i>
+                                            <br><small>wi-from-sse</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-from-s"></i>
+                                            <br><small>wi-from-s</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-from-ssw"></i>
+                                            <br><small>wi-from-ssw</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-from-sw"></i>
+                                            <br><small>wi-from-sw</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-from-wsw"></i>
+                                            <br><small>wi-from-wsw</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-from-w"></i>
+                                            <br><small>wi-from-w</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-from-wnw"></i>
+                                            <br><small>wi-from-wnw</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-from-nw"></i>
+                                            <br><small>wi-from-nw</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi wi-wind wi-from-nnw"></i>
+                                            <br><small>wi-from-nnw</small>
+                                        </div>
+                                    </div>
+                                </section>
+                                <hr>
+                                <section>
+                                    <h5 class="box-title">Beaufort Wind Scale</h5>
+                                    <div class="row text-center">
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi icon wi-wind-beaufort-0"></i>
+                                            <br><small>wi-wind-beaufort-0</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi icon wi-wind-beaufort-1"></i>
+                                            <br><small>wi-wind-beaufort-1</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi icon wi-wind-beaufort-2"></i>
+                                            <br><small>wi-wind-beaufort-2</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi icon wi-wind-beaufort-3"></i>
+                                            <br><small>wi-wind-beaufort-3</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi icon wi-wind-beaufort-4"></i>
+                                            <br><small>wi-wind-beaufort-4</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi icon wi-wind-beaufort-5"></i>
+                                            <br><small>wi-wind-beaufort-5</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi icon wi-wind-beaufort-6"></i>
+                                            <br><small>wi-wind-beaufort-6</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi icon wi-wind-beaufort-7"></i>
+                                            <br><small>wi-wind-beaufort-7</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi icon wi-wind-beaufort-8"></i>
+                                            <br><small>wi-wind-beaufort-8</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi icon wi-wind-beaufort-9"></i>
+                                            <br><small>wi-wind-beaufort-9</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi icon wi-wind-beaufort-10"></i>
+                                            <br><small>wi-wind-beaufort-10</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi icon wi-wind-beaufort-11"></i>
+                                            <br><small>wi-wind-beaufort-11</small>
+                                        </div>
+                                        <div class="col-md-2 col-sm-3 col-4"><i class="wi icon wi-wind-beaufort-12"></i>
+                                            <br><small>wi-wind-beaufort-12</small>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <!-- /.widget-body -->
+                        </div>
+                        <!-- /.widget-bg -->
+                    </div>
+                    <!-- /.widget-holder -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.widget-list -->
+        </main>
+        <!-- /.main-wrappper -->
+        <!-- RIGHT SIDEBAR -->
+        <aside class="right-sidebar scrollbar-enabled">
+            <div class="sidebar-chat" data-plugin="chat-sidebar">
+                <div class="sidebar-chat-info">
+                    <h3>Chat</h3>
+                    <p class="text-muted">You can chat with your family and friends in this space.</p>
+                </div>
+                <div class="chat-list">
+                    <h6 class="sidebar-chat-subtitle">Online</h6>
+                    <div class="list-group row">
+                        <a href="javascript:void(0)" class="list-group-item user--online thumb-xs" data-chat-user="Julein Renvoye">
+                            <img src="assets/demo/users/user1.jpg" class="rounded-circle" alt=""> <span class="name">Julien Renvoye</span>  <span class="username">@jrenvoye</span> 
+                        </a>
+                        <a href="javascript:void(0)" class="list-group-item user--online thumb-xs" data-chat-user="Eddie Lebanovkiy">
+                            <img src="assets/demo/users/user2.jpg" class="rounded-circle" alt=""> <span class="name">Eddie Lebanovskiy</span>  <span class="username">@elebano</span> 
+                        </a>
+                        <a href="javascript:void(0)" class="list-group-item user--away thumb-xs" data-chat-user="Cameron Moll">
+                            <img src="assets/demo/users/user3.jpg" class="rounded-circle" alt=""> <span class="name">Cameron Moll</span>  <span class="username">@cammoll</span> 
+                        </a>
+                        <a href="javascript:void(0)" class="list-group-item user--busy thumb-xs" data-chat-user="Bill S Kenny">
+                            <img src="assets/demo/users/user7.jpg" class="rounded-circle" alt=""> <span class="name">Bill S Kenny</span>  <span class="username">@billsk</span> 
+                        </a>
+                        <a href="javascript:void(0)" class="list-group-item user--busy thumb-xs" data-chat-user="Trent Walton">
+                            <img src="assets/demo/users/user6.jpg" class="rounded-circle" alt=""> <span class="name">Trent Walton</span>  <span class="username">@trentwalton</span>
+                        </a>
+                    </div>
+                    <!-- /.list-group -->
+                </div>
+                <!-- /.chat-list -->
+                <div class="chat-list">
+                    <h6 class="sidebar-chat-subtitle">Offline</h6>
+                    <div class="list-group row">
+                        <a href="javascript:void(0)" class="list-group-item user--offline thumb-xs" data-chat-user="Julien Renvoye">
+                            <img src="assets/demo/users/user1.jpg" class="rounded-circle" alt=""> <span class="name">Julien Renvoye</span>  <span class="username">@jrenvoye</span> 
+                        </a>
+                        <a href="javascript:void(0)" class="list-group-item user--offline thumb-xs" data-chat-user="Eddie Lebaovskiy">
+                            <img src="assets/demo/users/user2.jpg" class="rounded-circle" alt=""> <span class="name">Eddie Lebanovskiy</span>  <span class="username">@elebano</span> 
+                        </a>
+                        <a href="javascript:void(0)" class="list-group-item user--offline thumb-xs" data-chat-user="Cameron Moll">
+                            <img src="assets/demo/users/user3.jpg" class="rounded-circle" alt=""> <span class="name">Cameron Moll</span>  <span class="username">@cammoll</span> 
+                        </a>
+                        <a href="javascript:void(0)" class="list-group-item user--offline thumb-xs" data-chat-user="Bill S Kenny">
+                            <img src="assets/demo/users/user7.jpg" class="rounded-circle" alt=""> <span class="name">Bill S Kenny</span>  <span class="username">@billsk</span> 
+                        </a>
+                        <a href="javascript:void(0)" class="list-group-item user--offline thumb-xs" data-chat-user="Trent Walton">
+                            <img src="assets/demo/users/user6.jpg" class="rounded-circle" alt=""> <span class="name">Trent Walton</span>  <span class="username">@trentwalton</span>
+                        </a>
+                    </div>
+                    <!-- /.list-group -->
+                </div>
+                <!-- /.chat-list -->
+            </div>
+            <!-- /.sidebar-chat -->
+        </aside>
+        <!-- CHAT PANEL -->
+        <div class="chat-panel" hidden>
+            <div class="card">
+                <div class="card-header">
+                    <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                    <button type="button" class="minimize" aria-label="Minimize"><span aria-hidden="true"><i class="material-icons">expand_more</i></span>
+                    </button> <span class="user-name">John Doe</span>
+                </div>
+                <!-- /.card-header -->
+                <div class="card-block custom-scroll">
+                    <div class="messages custom-scroll-content scrollbar-enabled">
+                        <div class="current-user-message">
+                            <img class="user-image" width="30" height="30" src="assets/demo/users/user1.jpg" alt="">
+                            <div class="message">
+                                <p>Lorem ipsum dolor sit amet?</p><small>10:00 am</small>
+                            </div>
+                            <!-- /.message -->
+                        </div>
+                        <!-- /.current-user-message -->
+                        <div class="other-user-message">
+                            <img class="user-image" width="30" height="30" src="assets/demo/users/user2.jpg" alt="">
+                            <div class="message">
+                                <p>Etiam rhoncus. Maecenas tempus, tellus eget condi mentum rhoncus</p><small>10:00 am</small>
+                            </div>
+                            <!-- /.message -->
+                        </div>
+                        <!-- /.other-user-message -->
+                        <div class="current-user-message">
+                            <img class="user-image" width="30" height="30" src="assets/demo/users/user1.jpg" alt="">
+                            <div class="message">
+                                <img src="assets/demo/chat-message.jpg" alt=""> <small>10:00 am</small>
+                            </div>
+                            <!-- .,message -->
+                        </div>
+                        <!-- /.current-user-message -->
+                        <div class="current-user-message">
+                            <img class="user-image" width="30" height="30" src="assets/demo/users/user1.jpg" alt="">
+                            <div class="message">
+                                <p>Maecenas nec odio et ante tincidunt tempus.</p><small>10:00 am</small>
+                            </div>
+                            <!-- .,message -->
+                        </div>
+                        <!-- /.current-user-message -->
+                        <div class="other-user-message">
+                            <img class="user-image" width="30" height="30" src="assets/demo/users/user2.jpg" alt="">
+                            <div class="message">
+                                <p>Donec sodales :)</p><small>10:00 am</small>
+                            </div>
+                            <!-- /.message -->
+                        </div>
+                        <!-- /.other-user-message -->
+                    </div>
+                    <!-- /.messages -->
+                    <form action="javascript:void(0)" method="post">
+                        <textarea name="message" style="resize: none" placeholder="Type message and hit enter"></textarea>
+                        <ul class="list-unstyled list-inline chat-extra-buttons">
+                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="material-icons">insert_emoticon</i></a>
+                            </li>
+                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="material-icons">attach_file</i></a>
+                            </li>
+                        </ul>
+                        <button class="btn btn-color-scheme btn-circle submit-btn" type="submit"><i class="material-icons">send</i>
+                        </button>
+                    </form>
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            <!-- /.panel -->
+        </div>
+        <!-- /.chat-panel -->
+    </div>
+    <!-- /.content-wrapper -->
+    <!-- FOOTER -->
+    <footer class="footer text-center clearfix">2017 © Oscar Admin brought to you by UnifatoThemes</footer>
+    </div>
+    <!--/ #wrapper -->
+    <!-- Scripts -->
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.2/umd/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/mediaelement/4.1.3/mediaelementplayer.min.js"></script>
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/metisMenu/2.7.0/metisMenu.min.js"></script>
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.7.0/js/perfect-scrollbar.jquery.js"></script>
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.4/sweetalert2.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+
+<!-- Mirrored from oscar.thinqteam.com/default/icons-weather.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jun 2020 15:20:59 GMT -->
+</html>
