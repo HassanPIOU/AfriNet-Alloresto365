@@ -72,6 +72,7 @@ function addUser(){
     }
 
 }
+
 function editUser(){
 
     var firstname = $('#firstname').val()
